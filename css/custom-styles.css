@@ -1,0 +1,199 @@
+.pb0{padding-bottom: 0;}
+.m0{margin-bottom: 0;}
+.mb50{margin-bottom: 50px;}
+.mtb10{margin:10px 0 10px 0;}
+.mtb30{margin:30px 0 30px 0;}
+.mtb50{margin:50px 0 50px 0;}
+.mb100{margin-bottom: 50px;}
+.ptb50{padding:50px 0 50px 0;}
+.ptb100{padding:100px 0 100px 0;}
+.ptb30{padding:30px 0 30px 0;}
+.pt50{padding:50px 0 0 0;}
+.pt70{padding:70px 0 0 0;}
+
+/************** ICONS **************/
+.flex-container{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  flex-flow: row wrap;
+  }
+.wapp{
+  background-image: url(../solma-soluciones/icon-wapp.png);
+  width: 14px;
+  height: 14px;
+  display:inline-block;
+  }
+.icon{
+  background-image: url(../solma-soluciones/icon-wapp.png);
+  width: 14px;
+  height: 14px;
+  display:inline-block;
+  }
+
+
+/************************************/
+/************** HEADER **************/
+/************************************/
+.efrix-padding{
+  padding-top: 25px;
+}
+
+@media (max-width: 600px) {
+  .efrix-padding{
+    padding-top: 0;
+  }
+}
+.titular h1, .otros-cursos h1{
+  font-weight: bold;
+  color:#002570;
+  background-color: #fff;
+  }
+
+.temario h2, .otros-cursos h2{
+  font-weight: bold;
+  color:#002570;
+  }
+.temario h2{
+  font-size: 5em;
+  }
+.h2-p-features h2{
+  font-size: 18px;
+  }
+.h2-p-features p{
+  color:#002570;
+  font-size: 14px;
+  margin-bottom: 2em;
+  }
+.temario p{
+  color:#002570;
+  font-size: 2em;
+  margin-bottom: 2em;
+  }
+.temas, .cursos{
+  list-style-type: none;
+  padding:0;
+  }
+.temas li, .cursos li{
+  font-size: 1.3em;
+  line-height: 1.8em;
+  color:#F03B00;
+  font-weight: bold;
+  }
+.temas li span, .cursos li span{
+  color:#002570;
+  font-size: 1em;
+  }
+.ventajas-curso{
+  margin-bottom:0;
+}
+.ventajas-curso span{
+  font-weight: bold;
+  }
+.otros-cursos__title--h2{
+  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 3.2em;
+  }
+/*************************************/
+/************** TEMARIO **************/
+/*************************************/
+.temario{
+  background-image: url('../solma-soluciones/curso01.jpg');
+  /*background-position: center 1050px;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.limon{
+  background-image: url('http://static1.squarespace.com/static/51ba2198e4b089e26e4a4631/t/51ba33ade4b0fbbacafa5df2/1371157422849/Lancer_Large.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fondo-temario{
+  background-color: rgba(255, 255, 255, 0.7);
+  }
+.icono-temario{
+  width: 100%;
+  display: block;
+  text-align: center;
+  }
+.icono-temario img{
+  padding: 30px;
+  width:80%;
+  }
+/******************************************/
+/************** OTROS CURSOS **************/
+/******************************************/
+.fondo-color-oc{background-color: rgba(78, 0, 0, 0.9);}
+.otros-cursos{
+  background-image: url('../solma-soluciones/curso06.jpg');
+  background-position: center;
+  background-attachment: fixed; /*Fondo atachado*/
+  }
+
+.otros-cursos h1, .otros-cursos h2, .otros-cursos p{
+  color:#fff;
+}
+.cursos{
+  list-style-color:#fff;
+  list-style-type: circle;
+}
+.cursos li span{
+  color:#fff;
+}
+
+
+
+/***********************************/
+/************** PAGOS **************/
+/***********************************/
+.pagos h3{margin-bottom: 25px}
+.pagos p{ margin-bottom: 25px}
+.pagos img{height: 50px;margin: 0 15px 0 0;}
+
+.precios{
+  text-align: left;
+  }
+.precios h3{
+  font-size: 1.5em;
+  }
+
+
+  /**************************************/
+  /************** CONTACTO **************/
+  /**************************************/
+
+.contacto__form ul{
+  list-style-type: none;
+  padding: 0;
+  }
+.contacto__form li input, .contacto__form li textarea{
+  width:70%;
+  padding:.2em;
+  font-size: 1.3em;
+  }
+  .contacto__form li input::-webkit-input-placeholder, .contacto__form li textarea::-webkit-input-placeholder{
+    color: #002570;
+    opacity:.5;
+    }
+.btn-send{
+  width:4.5em !important;
+  margin-top:.5em;
+  padding:.4em 0 !important;
+  background-color: #002570;
+  font-size: 2.3em;
+  font-weight: bold;
+  color:#fff;
+  border:0;
+  border-radius: .5em;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  }
+.btn-send:hover{
+  background-color: #02A0F0;
+  color:#002570;
+  }
