@@ -10009,7 +10009,7 @@ img {
   background: rgba(24, 28, 32, 0.5);
 }
 .pi-img-overlay.pi-img-overlay-darker {
-  background: rgba(3, 139, 255, 0.68) none repeat scroll 0% 0%;
+  background: rgba(255, 3, 3, 0.37) none repeat scroll 0% 0%;
 }
 .pi-img-overlay.pi-img-overlay-darker-hovered {
   background: rgba(24, 28, 32, 0.8);
