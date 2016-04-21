@@ -52,6 +52,10 @@
   color:#002570;
   background-color: #fff;
   }
+.titular h1{
+  font-size: 40px;
+  line-height: 70px;
+  }
 
 .temario h2, .otros-cursos h2{
   font-weight: bold;
