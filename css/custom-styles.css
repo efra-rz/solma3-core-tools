@@ -28,7 +28,7 @@
   display:inline-block;
   }
 .icon{
-  background-image: url(../solma-soluciones/icon-wapp.png);
+  background-image: url(../solma-soluciones/icon-phone.png);
   width: 14px;
   height: 14px;
   display:inline-block;
@@ -105,7 +105,7 @@
 /************** TEMARIO **************/
 /*************************************/
 .temario{
-  background-image: url('../solma-soluciones/curso01.jpg');
+  background-image: url('../solma-soluciones/mnufactura-curso-2.jpg');
   /*background-position: center 1050px;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,6 +129,16 @@
   padding: 30px;
   width:80%;
   }
+/*.temas--letra-small{
+  font-size: .78em!important;
+  }*/
+/**************************************************/
+/************** ACERCA DE INSTRUCTOR **************/
+/**************************************************/
+.text-color-white{
+  color: #fff;
+  }
+
 /******************************************/
 /************** OTROS CURSOS **************/
 /******************************************/
@@ -149,6 +159,9 @@
 .cursos li span{
   color:#fff;
 }
+.cursos--letra-small{
+  font-size:.8em!important;
+  }
 
 
 
