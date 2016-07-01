@@ -105,7 +105,8 @@
 /************** TEMARIO **************/
 /*************************************/
 .temario{
-  background-image: url('../solma-soluciones/mnufactura-curso-2.jpg');
+  background-image: url('../solma-soluciones/core-tools-curso-3.jpg');
+  /*background-image: url('../solma-soluciones/mnufactura-curso-2.jpg');*/
   /*background-position: center 1050px;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -142,7 +143,9 @@
 /******************************************/
 /************** OTROS CURSOS **************/
 /******************************************/
-.fondo-color-oc{background-color: rgba(78, 0, 0, 0.9);}
+/*.fondo-color-oc{background-color: rgba(78, 0, 0, 0.9);}*/
+.fondo-color-oc{background-color: rgba(14, 99, 80, 0.8);}
+
 .otros-cursos{
   background-image: url('../solma-soluciones/curso06.jpg');
   background-position: center;

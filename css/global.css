@@ -3411,10 +3411,11 @@ iframe[src="about:blank"] {
   color: #f38b7d;
 }
 .pi-section-dark {
-  background-color: #E51C2B;
+  /*background-color: #E51C2B;*/
+  background-color: #18AB8C;
 }
   .pi-section-dark--instructor {
-    background-color: #A42D36;
+    background-color: #107861;
   }
 .pi-section-dark.pi-borders {
   border-top: 1px solid #1a1e22;
@@ -10009,7 +10010,7 @@ img {
   background: rgba(24, 28, 32, 0.5);
 }
 .pi-img-overlay.pi-img-overlay-darker {
-  background: rgba(255, 3, 3, 0.37) none repeat scroll 0% 0%;
+  background: rgba(3, 255, 202, 0.4) none repeat scroll 0% 0%;
 }
 .pi-img-overlay.pi-img-overlay-darker-hovered {
   background: rgba(24, 28, 32, 0.8);
